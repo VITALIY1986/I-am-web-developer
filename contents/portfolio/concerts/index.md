@@ -1,12 +1,12 @@
 ---
-title: Concerts
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-date: 2019-06-28
+title: DISCOVERY WORKSHOP
+description: There's a lot that we do before actually starting the project.
+date: 2020-04-28
 template: portfolio
 image: ./image.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+There's a lot that we do before actually starting the project. We do market research and analysis, understand the competitive landscape, understand and document clients’ design and branding preferences, consult with all the key stakeholders and finally come up with a high-level mapping. This brings alignment in terms of end-user persona and business needs.
 
 [row]
 [col]

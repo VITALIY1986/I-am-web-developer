@@ -89,7 +89,7 @@ class IndexPage extends React.Component {
                         <div className="main-title text-primary">
                             <svg
                                 width="90%"
-                                height="220px"
+                                height="120px"
                                 viewBox="0 0 100 100"
                                 preserveAspectRatio="xMidYMid slice"
                                 ref={c => (this.svg = c)}
@@ -107,7 +107,7 @@ class IndexPage extends React.Component {
                                
                                     <image
                                         xlinkHref="/images/wall.jpg"
-                                        height="100"
+                                        height="50"
                                         width="100"
                                         y="0"
                                         preserveAspectRatio="none"
@@ -142,8 +142,8 @@ class IndexPage extends React.Component {
                     </div>
                 </div>
         
-                <PortfolioList />
-                <BlogList />
+                <PortfolioList/>
+                
                 <Contact />
             </Layout>
         );

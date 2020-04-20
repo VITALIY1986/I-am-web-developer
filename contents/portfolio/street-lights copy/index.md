@@ -1,12 +1,12 @@
 ---
-title: PLANNING
-description: We emphasize on planning and get everything documented leaving nothing for assumption or chance to avoid miscommunication.
-date: 2020-04-28
+title: DEVELOPMENT
+description: At this step, we cater to the requirement for frontend, backend, web services
+date: 2020-02-28
 template: portfolio
 image: ./image.jpg
 ---
 
-We emphasize on planning and get everything documented leaving nothing for assumption or chance to avoid miscommunication. We jot down how we are going to proceed further, define the project plan including detailed technical specifications, devise the design and branding guidelines of the project, and get confirmation and approval from the clients’ end on the documents and materials.
+At this step, we cater to the requirement for frontend, backend, web services, and API development integration along with preparing a strategy for Agile Scrum methodology. We set up a 2-3 week frequency for milestones/sprints and involve our client review in each milestone or sprint. Crafting an optimized clean code structure is our objective at this stage.
 
 [row]
 [col]
