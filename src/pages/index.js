@@ -8,6 +8,7 @@ import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
 
+
 class IndexPage extends React.Component {
     constructor(props) {
         super(props);
@@ -17,7 +18,7 @@ class IndexPage extends React.Component {
     }
 
     createSVGElement(n, v) {
-        n = document.createElementNS("http://www.w3.org/2000/svg", n);
+        n = document.createElementNS("http://ww.w3.org/2000/svg", n);
         for (var p in v) n.setAttributeNS(null, p, v[p]);
         return n;
     }
@@ -81,8 +82,9 @@ class IndexPage extends React.Component {
                 />
                 <div
                     className="wall"
-                    style={{ height: this.state.winHeight + "px" }}
+                    style={{ position:'relative',height: this.state.winHeight + "px" , backgroundImage:'url("/images/giphy.gif")'}} 
                 >
+                    <div  className="into" style={{ position:'absolute' }}></div>
                     <div className="intro container">
                         <div className="main-title text-primary">
                             <svg
@@ -102,13 +104,7 @@ class IndexPage extends React.Component {
                                     width="100"
                                     height="100"
                                 >
-                                    <rect
-                                        x="0"
-                                        y="0"
-                                        className="fill-primary"
-                                        width="100"
-                                        height="100"
-                                    />
+                               
                                     <image
                                         xlinkHref="/images/wall.jpg"
                                         height="100"
@@ -145,6 +141,12 @@ class IndexPage extends React.Component {
                         <SocialLinks />
                     </div>
                 </div>
+                <div>
+                <img src="/images/giphy.gif"
+                                        
+                                     
+                                      
+                                    ></img></div>
                 <PortfolioList />
                 <BlogList />
                 <Contact />
@@ -162,6 +164,7 @@ export const query = graphql`
                 title
                 capitalizeTitleOnHome
                 titleImage
+                gif
                 introTag
                 description
                 social {

@@ -11,7 +11,7 @@ import "../style/navbar.less";
 function SidebarContents() {
     return (
         <div className="sidebar-contents">
-            <div className="logo">
+            <div className="logo">ВИПАДАЮЩИЙ
                 <Link to="/">
                     <Logo />
                 </Link>

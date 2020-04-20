@@ -1,5 +1,5 @@
 ---
-title: Something Cool
+title: Блог
 date: 2019-06-29
 template: blog
 image: ./image.jpg

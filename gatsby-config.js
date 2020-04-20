@@ -1,12 +1,13 @@
 const siteMetadata = {
-    title: `Elemental`,
+    title: `WEB STUDIO`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
-    icon: `/images/icon.png`,
+    icon: `/images/web.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+   gif: `/images/giphy.gif`,
+    introTag: `САЙТЫ | ИНТЕРНЕТ МАГАЗИНЫ |`,
+    description: ``,
     author: `@_akzhy`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -14,7 +15,7 @@ const siteMetadata = {
     switchTheme: true,
     navLinks: [
         {
-            name: "HOME",
+            name: "ГЛАВНАЯ",
             url: "/"
         },
         {
