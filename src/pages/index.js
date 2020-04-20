@@ -141,12 +141,7 @@ class IndexPage extends React.Component {
                         <SocialLinks />
                     </div>
                 </div>
-                <div>
-                <img src="/images/giphy.gif"
-                                        
-                                     
-                                      
-                                    ></img></div>
+              
                 <PortfolioList />
                 <BlogList />
                 <Contact />
