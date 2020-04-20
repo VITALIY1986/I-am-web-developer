@@ -6,6 +6,7 @@ const siteMetadata = {
     icon: `/images/web.png`,
     titleImage: `/images/wall.jpg`,
    gif: `/images/giphy.gif`,
+   gife: `/images/123.mp4`,
     introTag: `САЙТЫ | ИНТЕРНЕТ МАГАЗИНЫ |`,
     description: ``,
     author: `@_akzhy`,

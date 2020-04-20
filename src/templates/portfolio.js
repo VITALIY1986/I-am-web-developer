@@ -30,7 +30,7 @@ export default function({ data }) {
                         </p>
                     </div>
                     <div className="content row flex">
-                        <div className="col s12">
+                        <div className="col s12">ddddddddddddddddddddd
                             <MD
                                 components={components}
                                 htmlAst={data.markdownRemark.htmlAst}

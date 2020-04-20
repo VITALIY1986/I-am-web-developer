@@ -141,7 +141,7 @@ class IndexPage extends React.Component {
                         <SocialLinks />
                     </div>
                 </div>
-              
+        
                 <PortfolioList />
                 <BlogList />
                 <Contact />
@@ -160,6 +160,7 @@ export const query = graphql`
                 capitalizeTitleOnHome
                 titleImage
                 gif
+                gife
                 introTag
                 description
                 social {
@@ -171,3 +172,5 @@ export const query = graphql`
         }
     }
 `;
+ 
+ 
