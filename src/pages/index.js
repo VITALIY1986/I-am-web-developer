@@ -84,7 +84,9 @@ class IndexPage extends React.Component {
                     className="wall"
                     style={{ position:'relative',height: this.state.winHeight + "px" , backgroundImage:'url("/images/giphy.gif")'}} 
                 >
+                   
                     <div  className="into" style={{ position:'absolute' }}></div>
+                    <div  className="line" style={{ position:'absolute', backgroundImage: 'url("/images/line.png")' }}>  </div>
                     <div className="intro container">
                         <div className="main-title text-primary">
                             <svg
@@ -160,6 +162,7 @@ export const query = graphql`
                 capitalizeTitleOnHome
                 titleImage
                 gif
+                line
                 gife
                 introTag
                 description
